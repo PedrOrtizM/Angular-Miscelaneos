@@ -21,6 +21,9 @@ import { Component, OnInit } from '@angular/core';
 export class NgStyleComponent implements OnInit {
 
    tamano:number = 40;
+   // otra manera de hacerlo. Para agregar mas atributos css se le agrega coma
+   // Cuando el atributo tiene guión font-size = fontSize en la otra forma de arriba
+   
   // <p [ngStyle]="{'font-size': tamano+'px'}">
   //   esta es una etiqueta
   // </p>
