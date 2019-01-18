@@ -10,6 +10,7 @@ export class UsuarioComponent implements OnInit {
   constructor(private router:ActivatedRoute ) {
 
       this.router.params.subscribe(data =>{
+        console.log("Ruta Padre")
         console.log(data)
       })
 
