@@ -15,6 +15,7 @@ import { Component, OnInit } from '@angular/core';
   Hola Mundo
   </p>
   <app-ng-switch></app-ng-switch>
+  <app-directivas></app-directivas>
   `,
   styles: []
 })
