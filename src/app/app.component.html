@@ -2,9 +2,13 @@
 
 <div class="container mb-md-5">
 
-  <h1>Demo  <small>angular</small>  </h1>
-  <hr>
-  <router-outlet></router-outlet>
-  
+    <h1>Demo <small>angular</small> </h1>
+    <hr>
+
+
+    <label> Nombre: </label>
+    <input (keyup)="mostrar()" [(ngModel)]="nombre" style="width:10%" type="text" name="nombre">
+    <router-outlet></router-outlet>
+
 
 </div>

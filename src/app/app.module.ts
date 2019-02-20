@@ -17,6 +17,8 @@ import { UsuarioDetalleComponent } from './components/usuario/usuario-detalle.co
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NumClickDirective } from './directives/num-click.directive';
 import { DirectivasComponent } from './components/directivas/directivas.component';
+import {  FormsModule } from '@angular/forms'
+
 
 @NgModule({
   declarations: [
@@ -37,7 +39,8 @@ import { DirectivasComponent } from './components/directivas/directivas.componen
   ],
   imports: [
     BrowserModule,
-    APP_ROUTING
+    APP_ROUTING,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
